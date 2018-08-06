@@ -1,0 +1,99 @@
+html,
+body {
+  background-color: white;
+}
+
+header {
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  z-index: 1;
+}
+h6 {
+  position: relative;
+  top: 100px;
+  text-align: left;
+  color: red;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+section {
+  grid-gap: 20px;
+  border-bottom: 3px solid lightgrey;
+  position: relative;
+  top: 100px;
+}
+
+h1 {
+  position: relative;
+  top: 0px;
+  color: red;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p {
+  position: relative;
+  top: 100px;
+  font-size: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+h2 {
+  margin-left: 400px;
+  position: relative;
+  top: 6px;
+  font-size: 100%;
+  font-weight: 100;
+}
+
+h3 {
+  position: relative;
+  top: 0px;
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 150%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h4 {
+  position: relative;
+  top: 110px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+li {
+  /* in all pages */
+  display: inline; /*display the list in inline */
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  font-weight: 600; /* bold */
+  margin-right: 25px; /* li elements will be not touch each other */
+  text-transform: uppercase;
+}
+a {
+  /* in all pages */
+  text-decoration: none; /*for remove line under a elements */
+  color: red;
+}
+a:hover {
+  color: #8b8b8b;
+}
